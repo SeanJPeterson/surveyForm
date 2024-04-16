@@ -1,0 +1,53 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="styles.css" />
+        </head>
+        <body>
+          <div class="border">
+          <h1 id="title">Some Random Survey</h1>
+          <h2>Survey time!</h2>
+          <p class="description" id="description">It's a survey about random stuff.</p>
+          <form id="survey-form">
+    <label id="name-label">Your name here!</label><br>
+ <input id="name" type="text" placeholder="Name" required><br><br>
+ <label id="email-label">Your Email here!</label><br>
+<input id="email" type="email" placeholder="Email" required><br><br>
+  <label id="number-label">Your age here!</label><br>
+<input id="number" type="number" placeholder="Age" min="7" max="100" required><br><br>
+<label>Select your preferred Gender!</label><br>
+<select id="dropdown">
+<option disabled selected value>Select Gender Here</option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="nonbinary">Nonbinary</option>
+<option value="transgender">Transgender</option>
+<option value="other">Other</option>
+<option value="no-say">Prefer not to say</option>
+<option value="attack-helicopter">Attack Helicopter</option>
+</select><br><br>
+<label>Would you recommend this survey to anyone?</label><br>
+<input type="radio" value="heck-yeah" name="user-recommend" checked><label>Heck yeah</label><br>
+<input type="radio" value="heck-no" name="user-recommend"><label>Heck no</label><br>
+<input type="radio" value="not-sure" name="user-recommend"><label>I am not sure.</label><br>
+<input type="radio" value="waffles" name="user-recommend"><label>Waffles</label><br><br>
+<p id="description">If you had to choose a breakfast food for breakfast, what will you choose? (Select all boxes that fit what you would eat for breakfast. Don't choose anything if none of these apply to you.):</p><br>
+<input type="checkbox" value="pancakes" name="breakfast"><label>Pancakes</label><br>
+<input type="checkbox" value="smoothies" name="breakfast"><label>Smoothies</label><br>
+<input type="checkbox" value="cereal" name="breakfast"><label>Cereal</label><br>
+<input type="checkbox" value="waffles" name="breakfast"><label>Waffles</label><br>
+<input type="checkbox" value="Bacon" name="breakfast"><label>Bacon</label><br>
+<input type="checkbox" value="muffins" name="breakfast"><label>Muffins</label><br><br>
+<p id="description">Would you rather eat some cookies that have been crushed into many pieces and placed in a bowl, or would you rather drink a combination of Coke, Dr. Pepper, and Root Beer in a small sippy cup? (For the bowl, you are provided a spoon, but the cookies are a random assortment of different kinds. For safety reasons, you will be provided some cookies crumbs you are not allergic to.)</p><br>
+<input type="radio" value="bowl" name="would-you-rather" checked><label>Bowl of cookie crumbs</label><br>
+<input type="radio" value="cup" name="would-you-rather"><label>Cup of combined sodas</label><br><br>
+<label>Have you ever experienced weird dreams? If so, please type what your dream is about here:</label><br>
+<textarea name="dreams" id="dreams"></textarea><br>
+<label>If not, just ignore this question.</label><br>
+<p id="description">Any comments about this survey?</p>
+<textarea name="comment" id="comments"></textarea><br><br>
+<button id="submit" type="submit">Submit</button>
+            </form>
+            </div>
+          </body>
+    </html>

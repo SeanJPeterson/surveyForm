@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: rgb(50, 115, 110);
+    color: rgb(75, 10, 0);
+    font-family: fantasy;
+      text-align: center;
+    background-image: url(https://images.pexels.com/photos/413195/pexels-photo-413195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  }
+  
+  .border {
+    width: 80%;
+    background-color: rgb(91, 120, 110);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+  
+  p {
+     word-break: break-all;
+      text-warp: pretty;
+  }
+  
+  .question {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
